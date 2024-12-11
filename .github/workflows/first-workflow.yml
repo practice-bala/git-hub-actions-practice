@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
     run-shell-commands:
-        runs-on: ubuntu:18.04
+        runs-on: ubuntu-latest
         steps:
           - name: echo a String
             run: echo "Hello World"
